@@ -506,29 +506,29 @@ ul {
   padding-bottom: 60px;
 }
 
-.footer-menu {
+.footer__menu {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
 }
 
-.logo.studio-footer {
+.footer__logo--white {
   color: var(--secondary-title-color);
 }
 
-.footer > .container > .logo {
+.footer__logo {
   display: inline-block;
   margin-bottom: 20px;
 }
 
-.address .link {
+.address__link {
   color: var(--secondery-text-color);
   font-style: normal;
   display: inline-block;
 }
 
-.address .mail,
-.address .tel {
+.address__mail,
+.address__tel {
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   margin-top: 9px;
@@ -536,21 +536,21 @@ ul {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.address .mail:hover,
-.address .mail:focus {
+.address__mail:hover,
+.address__mail:focus {
   color: var(--accent-color);
 }
 
-.address .tel:hover,
-.address .tel:focus {
+.address__tel:hover,
+.address__tel:focus {
   color: var(--accent-color);
 }
 
-.footer-soc-media {
+.footer__soc-media {
   margin-left: 70px;
 }
 
-.footer-join {
+.footer__join {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -561,13 +561,13 @@ ul {
   margin-bottom: 20px;
 }
 
-.footer .soc-media-link {
+.footer .soc-media__link {
   background-color: rgba(255, 255, 255, 0.1);
   fill: var(--footer-soc-media-icon-color);
 }
 
-.footer .soc-media-link:hover,
-.footer .soc-media-link:focus {
+.footer .soc-media__link:hover,
+.footer .soc-media__link:focus {
   background-color: var(--accent-color);
 }
 
@@ -577,7 +577,7 @@ ul {
   min-height: 86px;
 }
 
-.text-join {
+.form-join__text {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -589,7 +589,7 @@ ul {
   margin-bottom: 20px;
 }
 
-.input-join {
+.form-join__input {
   width: 358px;
   min-height: 50px;
   background-color: transparent;
@@ -607,8 +607,8 @@ ul {
   padding-right: 16px;
 }
 
-.input-join:hover,
-.input-join:focus {
+.form-join__input:hover,
+.form-join__input:focus {
   border-color: var(--accent-color);
 }
 
@@ -623,7 +623,7 @@ ul {
   margin-left: 12px;
 }
 
-.icon-send {
+.form-join__icon-send {
   margin-left: 10px;
   fill: var(--secondary-title-color);
 }
